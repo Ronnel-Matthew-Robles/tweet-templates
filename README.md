@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Tweet Templates Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tweet Templates Viewer is a web application designed for viewing, searching, and exporting tweet templates. It allows users to interact with a dataset of tweet templates, filter through them using search criteria, and export the filtered data to a CSV file for use in applications like Excel.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **View Templates**: Displays tweet templates in a sortable table.
+- **Search Functionality**: Allows users to search templates by name or description.
+- **Export to CSV**: Users can export the current view of templates to a CSV file, which excludes certain system-specific columns.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you begin, ensure you have met the following requirements:
+- Node.js and npm installed (https://nodejs.org/)
+- Your environment supports modern JavaScript development.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To install Tweet Templates Viewer, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/tweet-templates-viewer.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd tweet-templates-viewer
+   ```
+3. Install the required npm packages:
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+## Usage/Examples
+To start using the Tweet Templates Viewer, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Start the development server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Use the search bar in the navbar to filter templates by name or description.
 
-### `npm run eject`
+3. Click on the "Export CSV" button in the navbar to download the displayed data as a CSV file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To contribute to Tweet Templates Viewer, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork this repository.
+2. Create a branch: git checkout -b <branch_name>.
+3. Make your changes and commit them: git commit -m '<commit_message>'
+4. Push to the original branch: git push origin <project_name>/<location>
+5. Create the pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Alternatively, see the GitHub documentation on creating a pull request.
 
-## Learn More
+## Contact
+If you want to contact me you can reach me at <mattwolfrob@gmail.com>.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project uses the following license: [MIT License](https://choosealicense.com/licenses/mit/)
