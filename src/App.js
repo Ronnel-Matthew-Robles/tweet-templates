@@ -1,7 +1,7 @@
 import { TemplateTable } from './components/template_table';
 import './App.css';
 import React, { useState, useMemo, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 
@@ -53,10 +53,10 @@ function App() {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link className="navbar-brand" to={{ pathname: "#"}}>
-            <img src="/check.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"></img>
+          <div className="navbar-brand" to="/">
+            <img src="/check.png" alt="Logo" width="30" height="30" className="d-inline-block align-text-top"></img>
             Tweet Templates
-          </Link>
+          </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -72,9 +72,9 @@ function App() {
       <div className='container mt-3 mb-5'>
         <TemplateTable columns={columns} data={filteredData} />
       </div>
-      <footer class="footer mt-auto py-3 bg-body-tertiary">
-        <div class="container">
-          <span class="text-body-secondary">Made by <Link to={{ pathname: "https://github.com/Ronnel-Matthew-Robles" }} target="_blank">@mattdoesntstop</Link></span>
+      <footer className="footer mt-auto py-3 bg-body-tertiary">
+        <div className="container">
+          <span className="text-body-secondary">Made by @mattdoesntstop</span>
         </div>
       </footer>
     </div>
